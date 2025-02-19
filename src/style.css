@@ -26,6 +26,9 @@ nav button {
     border: none;
     padding-block: 0px;
     padding-inline: 0px;
+    border-bottom: 6px solid white;
+    border-top: 6px solid white;
+    background-color: #FCFCFC;
 }
 
 nav button:hover {
