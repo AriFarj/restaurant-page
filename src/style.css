@@ -78,3 +78,9 @@ nav button:nth-child(3) {
     width: 100%;
     object-fit: cover;
 }
+
+.active {
+    background-color: #daf3d6;
+    border: 6px solid #daf3d6;
+    pointer-events: none;
+}

@@ -1,5 +1,5 @@
 import image1 from "./img/food1.jpg"
-
+import {setActiveTab} from "./setActiveTab.js"
 export function loadMenu() {
 
     let menuItems = [
@@ -50,4 +50,5 @@ export function loadMenu() {
         
         menuSection.appendChild(itemContainer);
     })
+    setActiveTab("menu");
 }

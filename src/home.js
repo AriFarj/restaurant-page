@@ -1,3 +1,4 @@
+import {setActiveTab} from "./setActiveTab.js"
 export function loadHome() {
 
     let openingArray = ['Sunday: 12:00 - 23:00',
@@ -38,6 +39,8 @@ export function loadHome() {
     })
     openTimesDiv.appendChild(days)
     homeSection.appendChild(openTimesDiv);
+    
+    setActiveTab("home");
 }
 
 

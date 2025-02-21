@@ -1,3 +1,4 @@
+import {setActiveTab} from "./setActiveTab.js"
 export function loadAbout() {
     // Clear the page
     const content = document.getElementById('content');
@@ -23,4 +24,5 @@ export function loadAbout() {
     const restaurantAddress = document.createElement('p');
     restaurantAddress.innerText = 'Find us at 3 Square de la Couronne'
     contactDetails.appendChild(restaurantAddress);
+    setActiveTab("about");
 }
