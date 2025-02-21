@@ -43,8 +43,6 @@ export function loadMenu() {
 
         let image = document.createElement('img');
         image.src = `${item.image}`;
-        image.width = '300';
-        image.height= '300'
 
         itemContainer.appendChild(image);
         itemContainer.appendChild(name);
