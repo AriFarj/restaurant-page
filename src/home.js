@@ -15,7 +15,7 @@ export function loadHome() {
     content.appendChild(homeSection)
 
     const homeHeader = document.createElement('h1');
-    homeHeader.textContent = "Retaurant Home Page";
+    homeHeader.innerText = "Retaurant Home Page";
 
     const restaurantDesc = document.createElement('p');
     restaurantDesc.textContent = `Lorem ipsum odor amet, consectetuer adipiscing elit. Primis laoreet ultrices potenti tempus sit elit
@@ -31,7 +31,7 @@ export function loadHome() {
     let days = document.createElement('ul');
     openingArray.forEach(e => {
         let hourElement = document.createElement('li');
-        hourElement.textContent = e;
+        hourElement.innerText = e;
         days.appendChild(hourElement);
     })
     openTimesDiv.appendChild(days)
