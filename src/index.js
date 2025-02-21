@@ -1,5 +1,5 @@
 import "./style.css";
-import { loadHome } from "./home";
+import { loadHome } from "./home.js";
 
 btnEventListeners();
 loadHome();
