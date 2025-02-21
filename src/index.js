@@ -1,2 +1,3 @@
 import "./style.css";
-console.log("HiHi")
+import { loadHome } from "./home";
+loadHome();
