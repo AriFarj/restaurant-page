@@ -16,6 +16,7 @@ export function loadHome() {
 
     const homeHeader = document.createElement('h1');
     homeHeader.innerText = "Retaurant Home Page";
+    homeSection.appendChild(homeHeader);
 
     const restaurantDesc = document.createElement('p');
     restaurantDesc.textContent = `Lorem ipsum odor amet, consectetuer adipiscing elit. Primis laoreet ultrices potenti tempus sit elit
@@ -24,6 +25,7 @@ export function loadHome() {
     sociosqu viverra luctus diam mi cubilia. Netus semper habitasse maecenas etiam elit natoque phasellus
     consequat nullam. Lectus sed taciti egestas luctus consequat mus. Laoreet quis semper tincidunt
     efficitur congue fringilla aenean tellus.`;
+    homeSection.appendChild(restaurantDesc);
 
     const openTimesDiv = document.createElement('div');
     openTimesDiv.classList.add("open-times")
@@ -35,10 +37,6 @@ export function loadHome() {
         days.appendChild(hourElement);
     })
     openTimesDiv.appendChild(days)
-
-
-    homeSection.appendChild(homeHeader);
-    homeSection.appendChild(restaurantDesc);
     homeSection.appendChild(openTimesDiv);
 }
 
