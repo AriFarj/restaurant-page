@@ -1,6 +1,7 @@
 import "./style.css";
 import { loadHome } from "./home.js";
 import  {loadAbout} from "./about.js"
+import { loadMenu } from "./menu.js";
 
 btnEventListeners();
 loadHome();
@@ -12,5 +13,5 @@ function btnEventListeners() {
 
     homePage.addEventListener("click", loadHome);
     aboutPage.addEventListener("click", loadAbout);
-    menuPage.addEventListener("click", loadAbout);
+    menuPage.addEventListener("click", loadMenu);
 }
