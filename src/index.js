@@ -12,4 +12,5 @@ function btnEventListeners() {
 
     homePage.addEventListener("click", loadHome);
     aboutPage.addEventListener("click", loadAbout);
+    menuPage.addEventListener("click", loadAbout);
 }
